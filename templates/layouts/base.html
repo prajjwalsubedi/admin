@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 {% load static %}
-<!-- saved from url=(0054)https://bootstrapious.com/tutorial/sidebar/index5.html -->
+
 <html class="fontawesome-i2svg-active fontawesome-i2svg-complete" data-arp-injected="true"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,54 +32,54 @@
         <!-- Sidebar Holder -->
         <nav id="sidebar">
             <div class="sidebar-header">
-                <h3>Bootstrap Sidebar</h3>
+                <h3>Sideguru</h3>
             </div>
 
             <ul class="list-unstyled components">
                 <p>Dummy Heading</p>
                 <li class="active">
-                    <a href="https://bootstrapious.com/tutorial/sidebar/index5.html#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
-                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle collapsed">Home</a>
+                    <ul class="list-unstyled collapse" id="homeSubmenu" style="">
                         <li>
-                            <a href="https://bootstrapious.com/tutorial/sidebar/index5.html#">Home 1</a>
+                            <a href="#">Home 1</a>
                         </li>
                         <li>
-                            <a href="https://bootstrapious.com/tutorial/sidebar/index5.html#">Home 2</a>
+                            <a href="#">Home 2</a>
                         </li>
                         <li>
-                            <a href="https://bootstrapious.com/tutorial/sidebar/index5.html#">Home 3</a>
+                            <a href="#">Home 3</a>
                         </li>
                     </ul>
                 </li>
                 <li>
-                    <a href="https://bootstrapious.com/tutorial/sidebar/index5.html#">About</a>
-                    <a href="https://bootstrapious.com/tutorial/sidebar/index5.html#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>
+                    <a href="#">About</a>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>
                     <ul class="collapse list-unstyled" id="pageSubmenu">
                         <li>
-                            <a href="https://bootstrapious.com/tutorial/sidebar/index5.html#">Page 1</a>
+                            <a href="#">Page 1</a>
                         </li>
                         <li>
-                            <a href="https://bootstrapious.com/tutorial/sidebar/index5.html#">Page 2</a>
+                            <a href="#">Page 2</a>
                         </li>
                         <li>
-                            <a href="https://bootstrapious.com/tutorial/sidebar/index5.html#">Page 3</a>
+                            <a href="#">Page 3</a>
                         </li>
                     </ul>
                 </li>
                 <li>
-                    <a href="https://bootstrapious.com/tutorial/sidebar/index5.html#">Portfolio</a>
+                    <a href="#">Portfolio</a>
                 </li>
                 <li>
-                    <a href="https://bootstrapious.com/tutorial/sidebar/index5.html#">Contact</a>
+                    <a href="#">Contact</a>
                 </li>
             </ul>
 
             <ul class="list-unstyled CTAs">
                 <li>
-                    <a href="https://bootstrapious.com/tutorial/files/sidebar.zip" class="download">Download source</a>
+                    <a href="#" class="download">Download source</a>
                 </li>
                 <li>
-                    <a href="https://bootstrapious.com/p/bootstrap-sidebar" class="article">Back to article</a>
+                    <a href="#" class="article">Back to article</a>
                 </li>
             </ul>
         </nav>
@@ -117,6 +117,29 @@
                     </div>
                 </div>
             </nav>
+
+            <div class="row">
+                <div class="col text-center ">
+                    <a href="#">
+                        <button type="button" class="btn btn-outline-primary ">Marketing Solutions</button>
+                    </a>
+                </div>
+                <div class="col text-center ">
+                    <a href="#">
+                        <button type="button" class="btn btn-outline-success">Social Media Automation</button>
+                    </a>
+                </div>
+                <div class="col text-center ">
+                    <a href="#">
+                        <button type="button" class="btn btn-outline-danger">Business Operations Management</button>
+                    </a>
+                </div>
+                <div class="col text-center">
+                    <a href="#">
+                        <button type="button" class="btn btn-outline-info">Website Analytics</button>
+                    </a>
+                </div>
+              </div>
             {% block content %}
             
             {% endblock content %}
